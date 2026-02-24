@@ -43,10 +43,10 @@
     "activeGraphConfigId": null,
     "graphConfigurations": {},
     "nodes": {
-        "3932e710-8052-4565-ad2d-57ec6b32ecb4": {
+        "d8c6c446-9f8e-41f9-bb9f-11ee99604035": {
             "category": "File",
             "categoryType": "Data",
-            "id": "3932e710-8052-4565-ad2d-57ec6b32ecb4",
+            "id": "d8c6c446-9f8e-41f9-bb9f-11ee99604035",
             "name": "random_file",
             "description": "",
             "x": 1169.422791558017,
@@ -55,7 +55,7 @@
             "commitHash": "",
             "paletteDownloadUrl": "",
             "dataHash": "",
-            "parentId": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "parentId": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "embedId": null,
             "fields": {
                 "1ed0a192-b822-4ad6-b464-75d53ee6ce9f": {
@@ -153,7 +153,7 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "e053ae76-6baa-4d13-b31d-e2d005f95f7d"
+                        "1b462bbf-bda5-4914-9141-3aee150352d7"
                     ]
                 },
                 "030c18e6-7474-447e-9c2f-188d7188be6b": {
@@ -176,10 +176,10 @@
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "8bc005cd-44f8-487e-a3ba-4c722bf7b596": {
+        "c2d651c2-7f93-4fc4-b071-5ec5cc272001": {
             "category": "Scatter",
             "categoryType": "Construct",
-            "id": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "id": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "name": "Scatter/GenericScatterApp",
             "description": "A default Scatter construct for the GenericScatterApp component.",
             "x": 998.2657582145857,
@@ -208,13 +208,13 @@
                     "edgeIds": []
                 }
             },
-            "inputApplicationId": "2ef8cf60-d20c-4a96-bf54-730523c9a715",
+            "inputApplicationId": "d0c2d4d6-7273-4058-8b3c-9c792ee678a6",
             "outputApplicationId": null
         },
-        "2ef8cf60-d20c-4a96-bf54-730523c9a715": {
+        "d0c2d4d6-7273-4058-8b3c-9c792ee678a6": {
             "category": "PythonApp",
             "categoryType": "Application",
-            "id": "2ef8cf60-d20c-4a96-bf54-730523c9a715",
+            "id": "d0c2d4d6-7273-4058-8b3c-9c792ee678a6",
             "name": "GenericScatterApp",
             "description": "",
             "x": 0,
@@ -224,7 +224,7 @@
             "paletteDownloadUrl": "",
             "dataHash": "",
             "parentId": null,
-            "embedId": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "embedId": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "fields": {
                 "4641e6f6-f8a2-44c0-8d63-13d17c1d9ef7": {
                     "name": "dropclass",
@@ -305,7 +305,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "1b7e8dc5-7431-461a-abe9-72d590dfb6d8"
+                        "66e226d4-11f8-48ed-8311-52918c68253d"
                     ]
                 },
                 "0ecf9db0-8466-4e8d-877a-a3ac0f64603e": {
@@ -323,17 +323,17 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "ac9ff94e-faf6-484b-ab93-178ed4944a1d"
+                        "8b202ede-2855-4e29-aa13-1b39fdbac61a"
                     ]
                 }
             },
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "1a0332a4-8372-4adb-8930-9cf10a4a251d": {
+        "02de6311-85c1-4a7f-88e2-4453b0793c2c": {
             "category": "BashShellApp",
             "categoryType": "Application",
-            "id": "1a0332a4-8372-4adb-8930-9cf10a4a251d",
+            "id": "02de6311-85c1-4a7f-88e2-4453b0793c2c",
             "name": "dd",
             "description": "An application component run within the Bash Shell",
             "x": 1090.2858200731498,
@@ -342,7 +342,7 @@
             "commitHash": "",
             "paletteDownloadUrl": "",
             "dataHash": "",
-            "parentId": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "parentId": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "embedId": null,
             "fields": {
                 "c03199a7-931a-42c9-8dbf-2c7c79632633": {
@@ -392,7 +392,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "3d43d52c-4c5a-49a1-aa15-3ad7522ea463"
+                        "caa308fa-c07f-4d06-a0cd-e9b157f30ba3"
                     ]
                 },
                 "01e431c4-a26a-4f88-a2d8-d7a2eb0167e0": {
@@ -426,7 +426,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "e053ae76-6baa-4d13-b31d-e2d005f95f7d"
+                        "1b462bbf-bda5-4914-9141-3aee150352d7"
                     ]
                 },
                 "36332a6d-07c7-4b07-bbe4-b88f0ead078a": {
@@ -561,10 +561,10 @@
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "d41802bc-3958-4e16-a847-4a4922f36857": {
+        "fb9ddfc8-b13e-4513-9c34-79a9f5bfbf60": {
             "category": "PythonApp",
             "categoryType": "Application",
-            "id": "d41802bc-3958-4e16-a847-4a4922f36857",
+            "id": "fb9ddfc8-b13e-4513-9c34-79a9f5bfbf60",
             "name": "RandomArrayApp",
             "description": "A testing APP that does not take any input and produces a random array of type int64, if integer is set to True, else of type float64. size indicates the number of elements ranging between the values low and high. The resulting array will be send to all connected output apps.",
             "x": 595.1163855913578,
@@ -719,7 +719,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "b1c69057-5427-4c57-8778-a77034f65fee"
+                        "52120538-af90-4c0b-aee3-dfb69e16344b"
                     ]
                 },
                 "8b1af1e9-bc26-4225-bc8b-8b396755caa9": {
@@ -772,10 +772,10 @@
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "1b0bfd59-ae32-48fa-93e0-cc93aad6b20e": {
+        "868b4d09-cbf6-4046-93b3-dfa390cc3f5f": {
             "category": "Memory",
             "categoryType": "Data",
-            "id": "1b0bfd59-ae32-48fa-93e0-cc93aad6b20e",
+            "id": "868b4d09-cbf6-4046-93b3-dfa390cc3f5f",
             "name": "array",
             "description": "In-memory storage of intermediate data products",
             "x": 705.9980667763565,
@@ -898,18 +898,18 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "b1c69057-5427-4c57-8778-a77034f65fee",
-                        "1b7e8dc5-7431-461a-abe9-72d590dfb6d8"
+                        "52120538-af90-4c0b-aee3-dfb69e16344b",
+                        "66e226d4-11f8-48ed-8311-52918c68253d"
                     ]
                 }
             },
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "c8295af9-8a91-476f-9f5d-a0b3aa7c49fc": {
+        "88619bc7-a1b8-499d-bbb6-2780be0ec8e4": {
             "category": "PythonApp",
             "categoryType": "Application",
-            "id": "c8295af9-8a91-476f-9f5d-a0b3aa7c49fc",
+            "id": "88619bc7-a1b8-499d-bbb6-2780be0ec8e4",
             "name": "PickOne",
             "description": "App that picks the first element of an input list, passes that to all outputs, except the first one. The first output is used to pass the remaining array on. This app is useful for a loop.",
             "x": 933.771430810629,
@@ -918,7 +918,7 @@
             "commitHash": "77df9c4",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "a5479744cd56f359b2bd46565893fee865c434b7cc70d0cbeced4318d2b8c427",
-            "parentId": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "parentId": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "embedId": null,
             "fields": {
                 "db6c55d4-ec5f-4012-bcf7-759d56e01066": {
@@ -1000,7 +1000,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "cc128e66-af1c-47c2-ada8-7e28ed3a9462"
+                        "5beb40f2-8ff3-4fd1-9ef4-a7e863137a66"
                     ]
                 },
                 "0d8b425b-00de-4164-b516-53d8711ee2ef": {
@@ -1018,7 +1018,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "b1f1e1e6-1a9c-4872-bd0e-fd6be42f2b1a"
+                        "2b9c4f88-50dd-40e4-ae34-fecad3b8a218"
                     ]
                 },
                 "c85141a3-af16-4809-aa41-73971118249c": {
@@ -1071,10 +1071,10 @@
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "58d6255c-b81b-473e-b445-977c407aab34": {
+        "fa46fce7-2b3c-4e90-bd8d-9c50ff73187a": {
             "category": "Memory",
             "categoryType": "Data",
-            "id": "58d6255c-b81b-473e-b445-977c407aab34",
+            "id": "fa46fce7-2b3c-4e90-bd8d-9c50ff73187a",
             "name": "split_array",
             "description": "In-memory storage of intermediate data products",
             "x": 856.9279443571521,
@@ -1083,7 +1083,7 @@
             "commitHash": "77df9c4",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "e511f15a21ca6488a37aafa150fea143ee75f445eef862a3fb921d9ff709bab7",
-            "parentId": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "parentId": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "embedId": null,
             "fields": {
                 "58a8a2d9-c3cb-4ccc-ba90-0e35e2bee4c3": {
@@ -1101,8 +1101,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "ac9ff94e-faf6-484b-ab93-178ed4944a1d",
-                        "cc128e66-af1c-47c2-ada8-7e28ed3a9462"
+                        "8b202ede-2855-4e29-aa13-1b39fdbac61a",
+                        "5beb40f2-8ff3-4fd1-9ef4-a7e863137a66"
                     ]
                 },
                 "41de6621-ae6d-40cb-a2d0-3b2f238fad2b": {
@@ -1205,10 +1205,10 @@
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "6e641d40-6b6d-43ba-97cf-fe9e3b4546b0": {
+        "3dc19da0-c2be-4a10-b62e-599739d25b37": {
             "category": "Memory",
             "categoryType": "Data",
-            "id": "6e641d40-6b6d-43ba-97cf-fe9e3b4546b0",
+            "id": "3dc19da0-c2be-4a10-b62e-599739d25b37",
             "name": "count",
             "description": "In-memory storage of intermediate data products",
             "x": 1013.1277072816125,
@@ -1217,7 +1217,7 @@
             "commitHash": "77df9c4",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "e511f15a21ca6488a37aafa150fea143ee75f445eef862a3fb921d9ff709bab7",
-            "parentId": "8bc005cd-44f8-487e-a3ba-4c722bf7b596",
+            "parentId": "c2d651c2-7f93-4fc4-b071-5ec5cc272001",
             "embedId": null,
             "fields": {
                 "041e0d70-f72a-49cd-a201-b85158b96b2c": {
@@ -1235,8 +1235,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "b1f1e1e6-1a9c-4872-bd0e-fd6be42f2b1a",
-                        "3d43d52c-4c5a-49a1-aa15-3ad7522ea463"
+                        "2b9c4f88-50dd-40e4-ae34-fecad3b8a218",
+                        "caa308fa-c07f-4d06-a0cd-e9b157f30ba3"
                     ]
                 },
                 "c6173a8d-4aa4-4456-ade5-898691143a4f": {
@@ -1341,65 +1341,65 @@
         }
     },
     "edges": {
-        "b1c69057-5427-4c57-8778-a77034f65fee": {
-            "id": "b1c69057-5427-4c57-8778-a77034f65fee",
-            "srcNodeId": "d41802bc-3958-4e16-a847-4a4922f36857",
+        "52120538-af90-4c0b-aee3-dfb69e16344b": {
+            "id": "52120538-af90-4c0b-aee3-dfb69e16344b",
+            "srcNodeId": "fb9ddfc8-b13e-4513-9c34-79a9f5bfbf60",
             "srcPortId": "a4dad3e1-2411-4b1b-bf40-d94b7765f45d",
-            "destNodeId": "1b0bfd59-ae32-48fa-93e0-cc93aad6b20e",
+            "destNodeId": "868b4d09-cbf6-4046-93b3-dfa390cc3f5f",
             "destPortId": "9ff7f9e3-307c-492c-918f-d44ed4049639",
             "loopAware": false,
             "closesLoop": false
         },
-        "1b7e8dc5-7431-461a-abe9-72d590dfb6d8": {
-            "id": "1b7e8dc5-7431-461a-abe9-72d590dfb6d8",
-            "srcNodeId": "1b0bfd59-ae32-48fa-93e0-cc93aad6b20e",
+        "66e226d4-11f8-48ed-8311-52918c68253d": {
+            "id": "66e226d4-11f8-48ed-8311-52918c68253d",
+            "srcNodeId": "868b4d09-cbf6-4046-93b3-dfa390cc3f5f",
             "srcPortId": "9ff7f9e3-307c-492c-918f-d44ed4049639",
-            "destNodeId": "2ef8cf60-d20c-4a96-bf54-730523c9a715",
+            "destNodeId": "d0c2d4d6-7273-4058-8b3c-9c792ee678a6",
             "destPortId": "b0c8ba69-99fe-4fc3-9d3a-ec9c82677bd1",
             "loopAware": false,
             "closesLoop": false
         },
-        "ac9ff94e-faf6-484b-ab93-178ed4944a1d": {
-            "id": "ac9ff94e-faf6-484b-ab93-178ed4944a1d",
-            "srcNodeId": "2ef8cf60-d20c-4a96-bf54-730523c9a715",
+        "8b202ede-2855-4e29-aa13-1b39fdbac61a": {
+            "id": "8b202ede-2855-4e29-aa13-1b39fdbac61a",
+            "srcNodeId": "d0c2d4d6-7273-4058-8b3c-9c792ee678a6",
             "srcPortId": "0ecf9db0-8466-4e8d-877a-a3ac0f64603e",
-            "destNodeId": "58d6255c-b81b-473e-b445-977c407aab34",
+            "destNodeId": "fa46fce7-2b3c-4e90-bd8d-9c50ff73187a",
             "destPortId": "58a8a2d9-c3cb-4ccc-ba90-0e35e2bee4c3",
             "loopAware": false,
             "closesLoop": false
         },
-        "cc128e66-af1c-47c2-ada8-7e28ed3a9462": {
-            "id": "cc128e66-af1c-47c2-ada8-7e28ed3a9462",
-            "srcNodeId": "58d6255c-b81b-473e-b445-977c407aab34",
+        "5beb40f2-8ff3-4fd1-9ef4-a7e863137a66": {
+            "id": "5beb40f2-8ff3-4fd1-9ef4-a7e863137a66",
+            "srcNodeId": "fa46fce7-2b3c-4e90-bd8d-9c50ff73187a",
             "srcPortId": "58a8a2d9-c3cb-4ccc-ba90-0e35e2bee4c3",
-            "destNodeId": "c8295af9-8a91-476f-9f5d-a0b3aa7c49fc",
+            "destNodeId": "88619bc7-a1b8-499d-bbb6-2780be0ec8e4",
             "destPortId": "79372b4f-4ea3-49d6-9829-25ac1b1fec6b",
             "loopAware": false,
             "closesLoop": false
         },
-        "b1f1e1e6-1a9c-4872-bd0e-fd6be42f2b1a": {
-            "id": "b1f1e1e6-1a9c-4872-bd0e-fd6be42f2b1a",
-            "srcNodeId": "c8295af9-8a91-476f-9f5d-a0b3aa7c49fc",
+        "2b9c4f88-50dd-40e4-ae34-fecad3b8a218": {
+            "id": "2b9c4f88-50dd-40e4-ae34-fecad3b8a218",
+            "srcNodeId": "88619bc7-a1b8-499d-bbb6-2780be0ec8e4",
             "srcPortId": "0d8b425b-00de-4164-b516-53d8711ee2ef",
-            "destNodeId": "6e641d40-6b6d-43ba-97cf-fe9e3b4546b0",
+            "destNodeId": "3dc19da0-c2be-4a10-b62e-599739d25b37",
             "destPortId": "041e0d70-f72a-49cd-a201-b85158b96b2c",
             "loopAware": false,
             "closesLoop": false
         },
-        "3d43d52c-4c5a-49a1-aa15-3ad7522ea463": {
-            "id": "3d43d52c-4c5a-49a1-aa15-3ad7522ea463",
-            "srcNodeId": "6e641d40-6b6d-43ba-97cf-fe9e3b4546b0",
+        "caa308fa-c07f-4d06-a0cd-e9b157f30ba3": {
+            "id": "caa308fa-c07f-4d06-a0cd-e9b157f30ba3",
+            "srcNodeId": "3dc19da0-c2be-4a10-b62e-599739d25b37",
             "srcPortId": "041e0d70-f72a-49cd-a201-b85158b96b2c",
-            "destNodeId": "1a0332a4-8372-4adb-8930-9cf10a4a251d",
+            "destNodeId": "02de6311-85c1-4a7f-88e2-4453b0793c2c",
             "destPortId": "647f71b3-0760-41a1-b6d5-5f2231bc939c",
             "loopAware": false,
             "closesLoop": false
         },
-        "e053ae76-6baa-4d13-b31d-e2d005f95f7d": {
-            "id": "e053ae76-6baa-4d13-b31d-e2d005f95f7d",
-            "srcNodeId": "1a0332a4-8372-4adb-8930-9cf10a4a251d",
+        "1b462bbf-bda5-4914-9141-3aee150352d7": {
+            "id": "1b462bbf-bda5-4914-9141-3aee150352d7",
+            "srcNodeId": "02de6311-85c1-4a7f-88e2-4453b0793c2c",
             "srcPortId": "6e866780-f552-40a4-bf63-44f84be00e32",
-            "destNodeId": "3932e710-8052-4565-ad2d-57ec6b32ecb4",
+            "destNodeId": "d8c6c446-9f8e-41f9-bb9f-11ee99604035",
             "destPortId": "8fdbbf3b-4edc-41f4-8d52-6f3810207ff9",
             "loopAware": false,
             "closesLoop": false
