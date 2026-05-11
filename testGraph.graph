@@ -185,7 +185,7 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "342d664d-b3b9-4d7f-bab5-ed57b74b8faa"
+                        "a973a94f-e33f-4f4b-ad44-799d25f2bf1d"
                     ]
                 }
             },
@@ -318,7 +318,7 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "342d664d-b3b9-4d7f-bab5-ed57b74b8faa"
+                        "a973a94f-e33f-4f4b-ad44-799d25f2bf1d"
                     ]
                 },
                 "762f54a8-5468-45d3-93d2-35d7dbcc28d2": {
@@ -403,13 +403,13 @@
                     "edgeIds": []
                 }
             },
-            "inputApplicationId": "6a987b9c-f6a8-46d7-ad6b-e422c90bd83a",
-            "outputApplicationId": "f646d241-0fe5-40c7-bf0b-aa6af8a6e02b"
+            "inputApplicationId": "d1c60e99-fe3b-460b-9374-d38f747a5fb7",
+            "outputApplicationId": "e46c054f-daf4-45dc-a32f-a93f1438c4eb"
         },
-        "6a987b9c-f6a8-46d7-ad6b-e422c90bd83a": {
+        "d1c60e99-fe3b-460b-9374-d38f747a5fb7": {
             "category": "DALiuGEApp",
             "categoryType": "Application",
-            "id": "6a987b9c-f6a8-46d7-ad6b-e422c90bd83a",
+            "id": "d1c60e99-fe3b-460b-9374-d38f747a5fb7",
             "name": "GenericScatterApp",
             "description": "",
             "x": 0,
@@ -521,10 +521,10 @@
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "f646d241-0fe5-40c7-bf0b-aa6af8a6e02b": {
+        "e46c054f-daf4-45dc-a32f-a93f1438c4eb": {
             "category": "Branch",
             "categoryType": "Application",
-            "id": "f646d241-0fe5-40c7-bf0b-aa6af8a6e02b",
+            "id": "e46c054f-daf4-45dc-a32f-a93f1438c4eb",
             "name": "Branch",
             "description": "A conditional branch to control flow",
             "x": 0,
@@ -725,8 +725,8 @@
         }
     },
     "edges": {
-        "342d664d-b3b9-4d7f-bab5-ed57b74b8faa": {
-            "id": "342d664d-b3b9-4d7f-bab5-ed57b74b8faa",
+        "a973a94f-e33f-4f4b-ad44-799d25f2bf1d": {
+            "id": "a973a94f-e33f-4f4b-ad44-799d25f2bf1d",
             "srcNodeId": "f545599c-97c6-4038-8667-4264bb7a858d",
             "srcPortId": "28963398-3d9d-4587-82d1-57a84f32e2c3",
             "destNodeId": "c18e58f6-c328-4bb5-8ce4-d9ce412d8209",
