@@ -1,0 +1,340 @@
+{
+    "modelData": {
+        "name": "branchbackgroundissuetest.graph",
+        "shortDescription": "",
+        "detailedDescription": "",
+        "type": "Graph",
+        "schemaVersion": "V4",
+        "readonly": false,
+        "location": {
+            "repositoryService": "GitHub",
+            "repositoryBranch": "main",
+            "repositoryName": "M-Wicenec/EagleTest",
+            "repositoryPath": "",
+            "repositoryFileName": "branchbackgroundissuetest.graph",
+            "commitHash": "b913322a32803b8507ca7387c4174f1a6b051f69",
+            "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/b913322a32803b8507ca7387c4174f1a6b051f69/branchbackgroundissuetest.graph"
+        },
+        "generatorVersion": "v6.6.0 (dev)",
+        "generatorCommitHash": "15ef3dbb",
+        "generatorName": "EAGLE",
+        "repositoryUrl": "",
+        "graphLocation": {
+            "repositoryService": "Unknown",
+            "repositoryBranch": "",
+            "repositoryName": "",
+            "repositoryPath": "",
+            "repositoryFileName": "",
+            "commitHash": "",
+            "downloadUrl": ""
+        },
+        "signature": "",
+        "lastModifiedName": "",
+        "lastModifiedEmail": "",
+        "lastModifiedDatetime": 0,
+        "numLGNodes": 1,
+        "repo": "james-strauss-uwa/old-logical-graphs",
+        "repoBranch": "update",
+        "repoService": "GitHub",
+        "filePath": "branchbackgroundissuetest.graph",
+        "commitHash": "",
+        "downloadUrl": ""
+    },
+    "activeGraphConfigId": null,
+    "graphConfigurations": {
+        "a966dd9e-dacd-4a7f-9ea6-cf48593449e7": {
+            "modelData": {
+                "name": "Default Configuration",
+                "shortDescription": "",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "a966dd9e-dacd-4a7f-9ea6-cf48593449e7",
+            "nodes": {
+                "637e0183-cce6-4552-a5b7-5e76dd118b6b": {
+                    "fields": {
+                        "ef6996b6-0018-4106-af4e-d69709d9c0ee": {
+                            "value": false,
+                            "comment": ""
+                        },
+                        "a12fcb38-f424-48e2-9478-cce19c8f8e85": {
+                            "value": 1,
+                            "comment": ""
+                        },
+                        "008cdf31-70be-4567-8e6f-e473ec5f40a2": {
+                            "value": "",
+                            "comment": ""
+                        },
+                        "9871bf68-2b7c-44b2-a48f-c83a2e340973": {
+                            "value": 5,
+                            "comment": ""
+                        },
+                        "480a738c-b680-457f-81c0-1802abfe55f2": {
+                            "value": "simple",
+                            "comment": ""
+                        },
+                        "427d2b23-ef97-4b0c-9be5-bc85a7ee85b7": {
+                            "value": "dlg.apps.simple.Branch",
+                            "comment": ""
+                        },
+                        "09ed1d10-9c0a-4fda-be24-fd1a43c7d677": {
+                            "value": "NOTSET",
+                            "comment": ""
+                        },
+                        "9d48eb4c-891c-42d7-841f-bab8716ac58d": {
+                            "value": "",
+                            "comment": ""
+                        },
+                        "c71edfc8-d166-403d-bd6f-f19a58806b10": {
+                            "value": "",
+                            "comment": ""
+                        },
+                        "dde058c0-30f8-46ed-aefb-79e55b493854": {
+                            "value": "def condition(x): return (x > 0)",
+                            "comment": ""
+                        },
+                        "09ef1f90-b3c5-45a2-a131-329fb15ffec8": {
+                            "value": "condition",
+                            "comment": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "nodes": {
+        "637e0183-cce6-4552-a5b7-5e76dd118b6b": {
+            "category": "Branch",
+            "categoryType": "Application",
+            "id": "637e0183-cce6-4552-a5b7-5e76dd118b6b",
+            "name": "Branch",
+            "description": "A branch application that copies the input to either the 'true' or the 'false' output depending on the result of the provided conditional function. The conditional function can be specified either in-line or as an external function and has to return a boolean value. The inputs of the application are passed on as arguments to the conditional function. The conditional function needs to return a boolean value, but the application will copy the input data to the true or false output, depending on the result of the conditional function.",
+            "x": 1121.7358740631005,
+            "y": 328.7177634549929,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "117d50e",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
+            "dataHash": "fa8b3a7fe5ff225a150aad9fa0fba828816eaf71b73feb1cbf6295379a9464c2",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "09ef1f90-b3c5-45a2-a131-329fb15ffec8": {
+                    "name": "func_name",
+                    "value": "condition",
+                    "defaultValue": "condition",
+                    "description": "Python conditional function name. This can also be a valid import path to an importable function.",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "09ef1f90-b3c5-45a2-a131-329fb15ffec8",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "dde058c0-30f8-46ed-aefb-79e55b493854": {
+                    "name": "func_code",
+                    "value": "def condition(x): return (x > 0)",
+                    "defaultValue": "def condition(x): return (x > 0)",
+                    "description": "Python function code for the branch condition. Modify as required. Note that func_name above needs to match the defined name here.",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "dde058c0-30f8-46ed-aefb-79e55b493854",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "008cdf31-70be-4567-8e6f-e473ec5f40a2": {
+                    "name": "x",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "Port carrying the input which is also used in the condition function. Note that the name of the parameter has to match the argument of the condition function.",
+                    "readonly": false,
+                    "type": "Object",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "008cdf31-70be-4567-8e6f-e473ec5f40a2",
+                    "parameterType": "Component",
+                    "usage": "InputPort",
+                    "edgeIds": []
+                },
+                "c71edfc8-d166-403d-bd6f-f19a58806b10": {
+                    "name": "true",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "If condition is true the input will be copied to this port",
+                    "readonly": false,
+                    "type": "Object",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "c71edfc8-d166-403d-bd6f-f19a58806b10",
+                    "parameterType": "Component",
+                    "usage": "OutputPort",
+                    "edgeIds": []
+                },
+                "9d48eb4c-891c-42d7-841f-bab8716ac58d": {
+                    "name": "false",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "If condition is false the input will be copied to this port",
+                    "readonly": false,
+                    "type": "Object",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "9d48eb4c-891c-42d7-841f-bab8716ac58d",
+                    "parameterType": "Component",
+                    "usage": "OutputPort",
+                    "edgeIds": []
+                },
+                "09ed1d10-9c0a-4fda-be24-fd1a43c7d677": {
+                    "name": "log_level",
+                    "value": "NOTSET",
+                    "defaultValue": "NOTSET",
+                    "description": "Set the log level for this drop",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "NOTSET",
+                        "DEBUG",
+                        "INFO",
+                        "WARNING",
+                        "ERROR",
+                        "CRITICAL"
+                    ],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "09ed1d10-9c0a-4fda-be24-fd1a43c7d677",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "427d2b23-ef97-4b0c-9be5-bc85a7ee85b7": {
+                    "name": "dropclass",
+                    "value": "dlg.apps.simple.Branch",
+                    "defaultValue": "dlg.apps.simple.Branch",
+                    "description": "Application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "427d2b23-ef97-4b0c-9be5-bc85a7ee85b7",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "480a738c-b680-457f-81c0-1802abfe55f2": {
+                    "name": "base_name",
+                    "value": "simple",
+                    "defaultValue": "simple",
+                    "description": "Base name of application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "480a738c-b680-457f-81c0-1802abfe55f2",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "9871bf68-2b7c-44b2-a48f-c83a2e340973": {
+                    "name": "execution_timeexecution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimated execution time",
+                    "readonly": false,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "9871bf68-2b7c-44b2-a48f-c83a2e340973",
+                    "parameterType": "Constraint",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "a12fcb38-f424-48e2-9478-cce19c8f8e85": {
+                    "name": "num_cpus",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Number of cores used",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "a12fcb38-f424-48e2-9478-cce19c8f8e85",
+                    "parameterType": "Constraint",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "ef6996b6-0018-4106-af4e-d69709d9c0ee": {
+                    "name": "group_start",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "ef6996b6-0018-4106-af4e-d69709d9c0ee",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        }
+    },
+    "edges": {},
+    "visuals": {}
+}

@@ -1,0 +1,810 @@
+{
+    "modelData": {
+        "name": "hello_world_config_test.graph",
+        "shortDescription": "",
+        "detailedDescription": "",
+        "type": "Graph",
+        "schemaVersion": "V4",
+        "readonly": false,
+        "location": {
+            "repositoryService": "GitHub",
+            "repositoryBranch": "main",
+            "repositoryName": "M-Wicenec/EagleTest",
+            "repositoryPath": "",
+            "repositoryFileName": "hello_world_config_test.graph",
+            "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+            "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+        },
+        "generatorVersion": "v6.9.0 (dev)",
+        "generatorCommitHash": "a36732fe",
+        "generatorName": "EAGLE",
+        "repositoryUrl": "",
+        "graphLocation": {
+            "repositoryService": "Unknown",
+            "repositoryBranch": "",
+            "repositoryName": "",
+            "repositoryPath": "",
+            "repositoryFileName": "",
+            "commitHash": "",
+            "downloadUrl": ""
+        },
+        "signature": "",
+        "lastModifiedName": "",
+        "lastModifiedEmail": "",
+        "lastModifiedDatetime": 0,
+        "numLGNodes": 3,
+        "repo": "james-strauss-uwa/old-logical-graphs",
+        "repoBranch": "update",
+        "repoService": "GitHub",
+        "filePath": "hello_world_config_test.graph",
+        "commitHash": "",
+        "downloadUrl": ""
+    },
+    "activeGraphConfigId": null,
+    "graphConfigurations": {
+        "a9d3cfdf-49a5-4a4c-b36d-832cf21c5833": {
+            "modelData": {
+                "name": "greet John",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "a9d3cfdf-49a5-4a4c-b36d-832cf21c5833",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "John",
+                            "comment": "Change the name of who we are greeting"
+                        }
+                    }
+                }
+            }
+        },
+        "ae459939-44c5-4f86-ab78-f48183629943": {
+            "modelData": {
+                "name": "greet Mary",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "ae459939-44c5-4f86-ab78-f48183629943",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "Mary",
+                            "comment": "Change the name of who we are greeting"
+                        }
+                    }
+                }
+            }
+        },
+        "574b7cf5-dd38-45ea-b158-38c5e5e15429": {
+            "modelData": {
+                "name": "greet Kevin",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "574b7cf5-dd38-45ea-b158-38c5e5e15429",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "Kevin",
+                            "comment": "Change the name of who we are greeting"
+                        }
+                    }
+                }
+            }
+        },
+        "6fb25660-cc66-41dd-a022-cd4a04792365": {
+            "modelData": {
+                "name": "greet Mark",
+                "shortDescription": "simple hello world config for name",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "6fb25660-cc66-41dd-a022-cd4a04792365",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "Mark",
+                            "comment": "Change the name of who we are greeting"
+                        }
+                    }
+                }
+            }
+        },
+        "9a30bb2e-be04-403a-9ab7-7f38d5deb1c4": {
+            "modelData": {
+                "name": "greet Mark (with cpu adjustment)",
+                "shortDescription": "simple hello world config for name with cpu adjustment",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "9a30bb2e-be04-403a-9ab7-7f38d5deb1c4",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "Mark",
+                            "comment": "Change the name of who we are greeting"
+                        },
+                        "1dc8f6ad-1434-4ca3-b289-12b5018bcad0": {
+                            "value": 1,
+                            "comment": "How many cpu should the helloWorldApp use"
+                        }
+                    }
+                }
+            }
+        },
+        "058fda87-775c-49a7-ba3b-878d63aebd56": {
+            "modelData": {
+                "name": "greet Kevin (with cpu adjustment)",
+                "shortDescription": "simple hello world config for name with cpu adjustment",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "058fda87-775c-49a7-ba3b-878d63aebd56",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "Mark",
+                            "comment": "Change the name of who we are greeting"
+                        },
+                        "1dc8f6ad-1434-4ca3-b289-12b5018bcad0": {
+                            "value": null,
+                            "comment": ""
+                        }
+                    }
+                },
+                "72a639b7-ee32-40dd-8606-ebb5d2ed239a": {
+                    "fields": {}
+                }
+            }
+        },
+        "fd93c729-2e3c-4007-9cb7-bc7c9ad856d5": {
+            "modelData": {
+                "name": "greet Kevin (filepath)",
+                "shortDescription": "simple hello world config (filepath)",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "Unknown",
+                "readonly": true,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
+                    "repositoryPath": "",
+                    "repositoryFileName": "hello_world_config_test.graph",
+                    "commitHash": "7f0d1dd7f9288364cca032e621105ab4bb569e6d",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/7f0d1dd7f9288364cca032e621105ab4bb569e6d/hello_world_config_test.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "fd93c729-2e3c-4007-9cb7-bc7c9ad856d5",
+            "nodes": {
+                "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+                    "fields": {
+                        "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                            "value": "Mark",
+                            "comment": "Change the name of who we are greeting"
+                        }
+                    }
+                },
+                "72a639b7-ee32-40dd-8606-ebb5d2ed239a": {
+                    "fields": {
+                        "e3de5b30-cf8c-4f37-bf80-4eeb31eed688": {
+                            "value": "",
+                            "comment": "Where should the file be saved?"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "nodes": {
+        "b4759a61-e639-4cae-882d-cfd3d99e532b": {
+            "category": "DALiuGEApp",
+            "categoryType": "Application",
+            "id": "b4759a61-e639-4cae-882d-cfd3d99e532b",
+            "name": "HelloWorldApp",
+            "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
+            "x": 676.528391320105,
+            "y": 253.80955165956937,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "0fafa38",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
+            "dataHash": "29ef26cf76f470a70a72f36eb9f9e88b1da6cf1a662e3935e1476114f1655d78",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "81292a14-cbdf-4813-b39d-834853d1f1d9": {
+                    "name": "greet",
+                    "value": "Unknown",
+                    "defaultValue": "World",
+                    "description": "What appears after 'Hello '",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "81292a14-cbdf-4813-b39d-834853d1f1d9",
+                    "parameterType": "Application",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "43a1d69a-362b-4e57-b0d0-734c7ca2c1fc": {
+                    "name": "dropclass",
+                    "value": "dlg.apps.simple.HelloWorldApp",
+                    "defaultValue": "dlg.apps.simple.HelloWorldApp",
+                    "description": "Application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "43a1d69a-362b-4e57-b0d0-734c7ca2c1fc",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "ba2d36b7-0080-460a-bf84-bea24a08543e": {
+                    "name": "base_name",
+                    "value": "simple",
+                    "defaultValue": "simple",
+                    "description": "Base name of application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "ba2d36b7-0080-460a-bf84-bea24a08543e",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "7ac22e1d-dea0-4f8d-ad1c-887bb1f5e487": {
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimated execution time",
+                    "readonly": false,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "7ac22e1d-dea0-4f8d-ad1c-887bb1f5e487",
+                    "parameterType": "Constraint",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "1dc8f6ad-1434-4ca3-b289-12b5018bcad0": {
+                    "name": "num_cpus",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Number of cores used",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "1dc8f6ad-1434-4ca3-b289-12b5018bcad0",
+                    "parameterType": "Constraint",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "78641263-57e2-4fb1-9db6-1260827f83d9": {
+                    "name": "group_start",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "78641263-57e2-4fb1-9db6-1260827f83d9",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "9b538ea1-7b1c-412e-84aa-a826a90cf072": {
+                    "name": "hello",
+                    "value": "world",
+                    "defaultValue": "world",
+                    "description": "message",
+                    "readonly": false,
+                    "type": "Object",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "9b538ea1-7b1c-412e-84aa-a826a90cf072",
+                    "parameterType": "Application",
+                    "usage": "OutputPort",
+                    "edgeIds": [
+                        "4bf0ccda-82e1-4cc9-bc02-6c3b3ca70ca2"
+                    ]
+                },
+                "ddf5c37b-e72a-4502-85e0-980d8bae6e07": {
+                    "name": "input_parser",
+                    "value": "pickle",
+                    "defaultValue": "pickle",
+                    "description": "Input port parsing technique",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "raw",
+                        "pickle",
+                        "eval",
+                        "npy",
+                        "path",
+                        "dataurl"
+                    ],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "ddf5c37b-e72a-4502-85e0-980d8bae6e07",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "d9e8b6d5-9b21-450b-8f2e-dc2829677d56": {
+                    "name": "output_parser",
+                    "value": "pickle",
+                    "defaultValue": "pickle",
+                    "description": "Output port parsing technique",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "raw",
+                        "pickle",
+                        "eval",
+                        "npy",
+                        "path",
+                        "dataurl"
+                    ],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "d9e8b6d5-9b21-450b-8f2e-dc2829677d56",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        },
+        "72a639b7-ee32-40dd-8606-ebb5d2ed239a": {
+            "category": "File",
+            "categoryType": "Data",
+            "id": "72a639b7-ee32-40dd-8606-ebb5d2ed239a",
+            "name": "File",
+            "description": "A standard file on a filesystem mounted to the deployment machine",
+            "x": 914.0011798193952,
+            "y": 217.8188386034853,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "0fafa38",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
+            "dataHash": "fb6b9cc58716743665932ec7d3eba94334ea8ab892708fdb4658751a1878ed22",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "e3de5b30-cf8c-4f37-bf80-4eeb31eed688": {
+                    "name": "filepath",
+                    "value": "Unknown",
+                    "defaultValue": "",
+                    "description": "File path for this file. In many cases this does not need to be specified. If it has a \\/ at the end it will be treated as a directory name and the filename will be generated. If it does not have a \\/, the last part will be treated as a filename. If filepath does not start with \\/ (relative path) then the session directory will be prepended to make the path absolute.\"",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "e3de5b30-cf8c-4f37-bf80-4eeb31eed688",
+                    "parameterType": "Application",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "52028cfe-7cec-4b50-80f6-05e6af3c374c": {
+                    "name": "check_filepath_exists",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Perform a check to make sure the file path exists before proceeding with the application",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "52028cfe-7cec-4b50-80f6-05e6af3c374c",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "1a27d6bc-5f14-44a3-ac87-6bee880024fb": {
+                    "name": "dropclass",
+                    "value": "dlg.data.drops.file.FileDROP",
+                    "defaultValue": "dlg.data.drops.file.FileDROP",
+                    "description": "Drop class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "1a27d6bc-5f14-44a3-ac87-6bee880024fb",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "bc945578-d42f-4dbb-8e0a-6841ec4059af": {
+                    "name": "base_name",
+                    "value": "file",
+                    "defaultValue": "file",
+                    "description": "Base name of application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "bc945578-d42f-4dbb-8e0a-6841ec4059af",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "0978f2bb-46bb-4b27-8a69-624755316300": {
+                    "name": "streaming",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Specifies whether this data component streams input and output data",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "0978f2bb-46bb-4b27-8a69-624755316300",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "125766f5-a598-4bf2-ae20-ecfe38395cf9": {
+                    "name": "persist",
+                    "value": true,
+                    "defaultValue": "True",
+                    "description": "Specifies whether this data component contains data that should not be deleted after execution",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "125766f5-a598-4bf2-ae20-ecfe38395cf9",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "dabcf076-58ef-4a55-ac32-dc470e32f6e5": {
+                    "name": "data_volume",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimated size of the data contained in this node",
+                    "readonly": false,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "dabcf076-58ef-4a55-ac32-dc470e32f6e5",
+                    "parameterType": "Constraint",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "7c596aa7-9f95-4658-b646-3eb98c6737e5": {
+                    "name": "group_end",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Is this node the end of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "7c596aa7-9f95-4658-b646-3eb98c6737e5",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "aa11ae0f-81fc-4bec-b7ce-32fdb7466f77": {
+                    "name": "dummy",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "Dummy port",
+                    "readonly": false,
+                    "type": "Object",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "aa11ae0f-81fc-4bec-b7ce-32fdb7466f77",
+                    "parameterType": "Application",
+                    "usage": "InputOutput",
+                    "edgeIds": [
+                        "4bf0ccda-82e1-4cc9-bc02-6c3b3ca70ca2"
+                    ]
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        },
+        "d4961c29-9f56-41ff-b676-b9df06ad9dfd": {
+            "category": "Comment",
+            "categoryType": "Other",
+            "id": "d4961c29-9f56-41ff-b676-b9df06ad9dfd",
+            "name": "Comment",
+            "description": "A comment template drop",
+            "x": 680.2916204883852,
+            "y": 132.0006107820183,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "b5e4298",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master-template.palette",
+            "dataHash": "f76f31b1c70e9a7e91837106a10b929a596d230f4b65009f3e062a89e80fc1ef",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "6e675126-1883-46c8-af73-e9c02cb00ee3": {
+                    "name": "dropclass",
+                    "value": "dlg.apps.constructs.CommentDrop",
+                    "defaultValue": "dlg.apps.constructs.CommentDrop",
+                    "description": "Drop class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "6e675126-1883-46c8-af73-e9c02cb00ee3",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "a409956b-532e-42f4-a681-60a07359f0e6": {
+                    "name": "base_name",
+                    "value": "constructs",
+                    "defaultValue": "constructs",
+                    "description": "Base name of application class",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "a409956b-532e-42f4-a681-60a07359f0e6",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        }
+    },
+    "edges": {
+        "4bf0ccda-82e1-4cc9-bc02-6c3b3ca70ca2": {
+            "id": "4bf0ccda-82e1-4cc9-bc02-6c3b3ca70ca2",
+            "srcNodeId": "b4759a61-e639-4cae-882d-cfd3d99e532b",
+            "srcPortId": "9b538ea1-7b1c-412e-84aa-a826a90cf072",
+            "destNodeId": "72a639b7-ee32-40dd-8606-ebb5d2ed239a",
+            "destPortId": "aa11ae0f-81fc-4bec-b7ce-32fdb7466f77",
+            "loopAware": false,
+            "closesLoop": false
+        }
+    },
+    "visuals": {}
+}
