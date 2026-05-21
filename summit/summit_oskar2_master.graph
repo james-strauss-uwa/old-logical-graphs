@@ -426,8 +426,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "c84f3d9d-1deb-4839-acc6-afd332fe9723",
-                        "7cbac5b6-215d-4562-ad83-f83d7f3f3663"
+                        "46bbea9a-e03d-4a8b-a801-57a1b67fc9c2",
+                        "c1614356-ef83-4231-9e3c-0ae1b6169831"
                     ]
                 },
                 "15aef7e4-6633-418b-a83c-94fe52197a8a": {
@@ -592,7 +592,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "25b53ce4-666c-44c8-b94a-9645de2f1ea4"
+                        "50cee43e-fb40-45c5-8a81-374e7e0b93d1"
                     ]
                 },
                 "415cfb08-c0ac-48b4-9f12-7305c9b6239f": {
@@ -709,8 +709,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "4921ea59-659f-4c04-ba39-2acc034a60f4",
-                        "8ca418c3-5133-4e8a-b327-05c9c27e7f2e"
+                        "6772b8f2-dc6b-4c88-a062-0338dae9bb27",
+                        "1de0c989-b0ae-4b29-ac6e-5d59fc6af549"
                     ]
                 },
                 "67a095fe-b0ff-476f-ac80-5b0db4ea29cd": {
@@ -813,13 +813,13 @@
                     "edgeIds": []
                 }
             },
-            "inputApplicationId": "d3a04a2b-0169-4d6b-b283-37a6c69b65b8",
+            "inputApplicationId": "885bb2d7-8906-459c-a311-491f664b0bdf",
             "outputApplicationId": null
         },
-        "d3a04a2b-0169-4d6b-b283-37a6c69b65b8": {
+        "885bb2d7-8906-459c-a311-491f664b0bdf": {
             "category": "DALiuGEApp",
             "categoryType": "Application",
-            "id": "d3a04a2b-0169-4d6b-b283-37a6c69b65b8",
+            "id": "885bb2d7-8906-459c-a311-491f664b0bdf",
             "name": "scatter",
             "description": "",
             "x": 0,
@@ -910,8 +910,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "25b53ce4-666c-44c8-b94a-9645de2f1ea4",
-                        "c84f3d9d-1deb-4839-acc6-afd332fe9723"
+                        "50cee43e-fb40-45c5-8a81-374e7e0b93d1",
+                        "46bbea9a-e03d-4a8b-a801-57a1b67fc9c2"
                     ]
                 }
             },
@@ -998,13 +998,13 @@
                     "edgeIds": []
                 }
             },
-            "inputApplicationId": "53a3efef-97bb-46cf-ad85-e4966443d8f1",
+            "inputApplicationId": "267a1c38-e2fb-438f-b604-57fce5c3868b",
             "outputApplicationId": null
         },
-        "53a3efef-97bb-46cf-ad85-e4966443d8f1": {
+        "267a1c38-e2fb-438f-b604-57fce5c3868b": {
             "category": "DALiuGEApp",
             "categoryType": "Application",
-            "id": "53a3efef-97bb-46cf-ad85-e4966443d8f1",
+            "id": "267a1c38-e2fb-438f-b604-57fce5c3868b",
             "name": "average",
             "description": "",
             "x": 0,
@@ -1095,8 +1095,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "8ca418c3-5133-4e8a-b327-05c9c27e7f2e",
-                        "2969a3e7-921a-4a7a-8425-10c0e17f5f48"
+                        "1de0c989-b0ae-4b29-ac6e-5d59fc6af549",
+                        "e736ce0c-e00f-4341-a8a1-08c6c26e7f6e"
                     ]
                 }
             },
@@ -1229,7 +1229,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "7d32d324-78a7-4258-bf0e-591c3b267c20"
+                        "0981ed73-7b1b-487b-a565-8b7de872e5e4"
                     ]
                 },
                 "2673898b-86bc-47f3-89a9-d305a957c44c": {
@@ -1247,7 +1247,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "4921ea59-659f-4c04-ba39-2acc034a60f4"
+                        "6772b8f2-dc6b-4c88-a062-0338dae9bb27"
                     ]
                 }
             },
@@ -1396,8 +1396,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "5660f871-c357-4f8a-bb81-d3377ddde8d8",
-                        "2969a3e7-921a-4a7a-8425-10c0e17f5f48"
+                        "bbf22e4c-3edf-432a-8bac-509dc2befd33",
+                        "e736ce0c-e00f-4341-a8a1-08c6c26e7f6e"
                     ]
                 },
                 "10d64880-2ee5-4554-bbc4-7ced789deb7f": {
@@ -1500,13 +1500,13 @@
                     "edgeIds": []
                 }
             },
-            "inputApplicationId": "8f230b1d-ab95-40db-8af1-2f623cca1195",
+            "inputApplicationId": "2d82502b-a83a-46d6-8f80-934406630ab7",
             "outputApplicationId": null
         },
-        "8f230b1d-ab95-40db-8af1-2f623cca1195": {
+        "2d82502b-a83a-46d6-8f80-934406630ab7": {
             "category": "DALiuGEApp",
             "categoryType": "Application",
-            "id": "8f230b1d-ab95-40db-8af1-2f623cca1195",
+            "id": "2d82502b-a83a-46d6-8f80-934406630ab7",
             "name": "SleepApp",
             "description": "A simple APP that sleeps the specified amount of time (0 by default). This is mainly useful (and used) to test graph translation and structure without executing real algorithms. Very useful for debugging.",
             "x": 0,
@@ -1581,8 +1581,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "7cbac5b6-215d-4562-ad83-f83d7f3f3663",
-                        "35a2c614-b8fa-4484-beb6-8a17641b84fc"
+                        "c1614356-ef83-4231-9e3c-0ae1b6169831",
+                        "eafbc32e-b3c1-4ef8-b62b-aebff7ba506c"
                     ]
                 },
                 "963c536f-129b-42f3-8ea4-db1722eebe7b": {
@@ -1685,13 +1685,13 @@
                     "edgeIds": []
                 }
             },
-            "inputApplicationId": "a07454fd-0d29-4cba-b75d-2e29727c4179",
+            "inputApplicationId": "3d536cc7-7f1f-4dbd-88a3-56a854dd8be2",
             "outputApplicationId": null
         },
-        "a07454fd-0d29-4cba-b75d-2e29727c4179": {
+        "3d536cc7-7f1f-4dbd-88a3-56a854dd8be2": {
             "category": "DALiuGEApp",
             "categoryType": "Application",
-            "id": "a07454fd-0d29-4cba-b75d-2e29727c4179",
+            "id": "3d536cc7-7f1f-4dbd-88a3-56a854dd8be2",
             "name": "average",
             "description": "",
             "x": 0,
@@ -1782,8 +1782,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "5660f871-c357-4f8a-bb81-d3377ddde8d8",
-                        "d64b57b4-9d02-4123-827d-6fc82a8e7e38"
+                        "bbf22e4c-3edf-432a-8bac-509dc2befd33",
+                        "5efa7f62-2249-40c5-bde8-3e398908c665"
                     ]
                 }
             },
@@ -1932,8 +1932,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "d845faff-6036-4b88-b936-597a24160d8e",
-                        "d64b57b4-9d02-4123-827d-6fc82a8e7e38"
+                        "5fc3f25a-3e93-46ff-9c44-97efaf54cf22",
+                        "5efa7f62-2249-40c5-bde8-3e398908c665"
                     ]
                 },
                 "79d2ca7f-8fb5-4eed-9552-a8a5c69f048a": {
@@ -2050,8 +2050,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "7d32d324-78a7-4258-bf0e-591c3b267c20",
-                        "35a2c614-b8fa-4484-beb6-8a17641b84fc"
+                        "0981ed73-7b1b-487b-a565-8b7de872e5e4",
+                        "eafbc32e-b3c1-4ef8-b62b-aebff7ba506c"
                     ]
                 },
                 "bbec18ed-9045-4515-86ba-1d62caea4718": {
@@ -2216,7 +2216,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "d845faff-6036-4b88-b936-597a24160d8e"
+                        "5fc3f25a-3e93-46ff-9c44-97efaf54cf22"
                     ]
                 },
                 "86e8be0b-3a82-408a-a388-a839465b55de": {
@@ -2234,7 +2234,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "906f577d-0b29-4c7f-937c-6ac76de975f0"
+                        "73ffcb6a-1dfa-4b7e-9a88-e6b402135876"
                     ]
                 }
             },
@@ -2335,7 +2335,7 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "906f577d-0b29-4c7f-937c-6ac76de975f0"
+                        "73ffcb6a-1dfa-4b7e-9a88-e6b402135876"
                     ]
                 },
                 "d6215a75-61db-454d-8767-91b7520fd3d6": {
@@ -2360,8 +2360,8 @@
         }
     },
     "edges": {
-        "7d32d324-78a7-4258-bf0e-591c3b267c20": {
-            "id": "7d32d324-78a7-4258-bf0e-591c3b267c20",
+        "0981ed73-7b1b-487b-a565-8b7de872e5e4": {
+            "id": "0981ed73-7b1b-487b-a565-8b7de872e5e4",
             "srcNodeId": "b985a1a6-7ac4-48ee-a376-aaab5ccde34a",
             "srcPortId": "4a255169-a67b-49b5-b36c-be6048922adc",
             "destNodeId": "9a68adeb-0e92-42ba-a55c-4ca30051909d",
@@ -2369,8 +2369,8 @@
             "loopAware": false,
             "closesLoop": false
         },
-        "906f577d-0b29-4c7f-937c-6ac76de975f0": {
-            "id": "906f577d-0b29-4c7f-937c-6ac76de975f0",
+        "73ffcb6a-1dfa-4b7e-9a88-e6b402135876": {
+            "id": "73ffcb6a-1dfa-4b7e-9a88-e6b402135876",
             "srcNodeId": "b00edc20-bcc3-46d6-967d-a19bf0294ae3",
             "srcPortId": "86e8be0b-3a82-408a-a388-a839465b55de",
             "destNodeId": "8945e6c1-c83e-437a-9f4b-2e779f152270",
@@ -2378,17 +2378,17 @@
             "loopAware": false,
             "closesLoop": false
         },
-        "25b53ce4-666c-44c8-b94a-9645de2f1ea4": {
-            "id": "25b53ce4-666c-44c8-b94a-9645de2f1ea4",
+        "50cee43e-fb40-45c5-8a81-374e7e0b93d1": {
+            "id": "50cee43e-fb40-45c5-8a81-374e7e0b93d1",
             "srcNodeId": "55f87260-5cd7-4991-bb7c-54bdca15dc3b",
             "srcPortId": "df38a9fa-56a8-43de-932c-c4270f2e98bc",
-            "destNodeId": "d3a04a2b-0169-4d6b-b283-37a6c69b65b8",
+            "destNodeId": "885bb2d7-8906-459c-a311-491f664b0bdf",
             "destPortId": "ee20e187-c7cc-4fca-a2e8-67d87e1adcb7",
             "loopAware": false,
             "closesLoop": false
         },
-        "4921ea59-659f-4c04-ba39-2acc034a60f4": {
-            "id": "4921ea59-659f-4c04-ba39-2acc034a60f4",
+        "6772b8f2-dc6b-4c88-a062-0338dae9bb27": {
+            "id": "6772b8f2-dc6b-4c88-a062-0338dae9bb27",
             "srcNodeId": "9a68adeb-0e92-42ba-a55c-4ca30051909d",
             "srcPortId": "2673898b-86bc-47f3-89a9-d305a957c44c",
             "destNodeId": "65c16e66-34fa-4d4d-8d41-0e67e6d6dee7",
@@ -2396,26 +2396,26 @@
             "loopAware": false,
             "closesLoop": false
         },
-        "8ca418c3-5133-4e8a-b327-05c9c27e7f2e": {
-            "id": "8ca418c3-5133-4e8a-b327-05c9c27e7f2e",
+        "1de0c989-b0ae-4b29-ac6e-5d59fc6af549": {
+            "id": "1de0c989-b0ae-4b29-ac6e-5d59fc6af549",
             "srcNodeId": "65c16e66-34fa-4d4d-8d41-0e67e6d6dee7",
             "srcPortId": "150aaf64-0e7e-4b27-b087-c983e8a43fc3",
-            "destNodeId": "53a3efef-97bb-46cf-ad85-e4966443d8f1",
+            "destNodeId": "267a1c38-e2fb-438f-b604-57fce5c3868b",
             "destPortId": "4faac86a-3033-4f45-bb2b-f457183aa02c",
             "loopAware": false,
             "closesLoop": false
         },
-        "5660f871-c357-4f8a-bb81-d3377ddde8d8": {
-            "id": "5660f871-c357-4f8a-bb81-d3377ddde8d8",
+        "bbf22e4c-3edf-432a-8bac-509dc2befd33": {
+            "id": "bbf22e4c-3edf-432a-8bac-509dc2befd33",
             "srcNodeId": "4ef0c680-6708-468c-9b88-def44a034691",
             "srcPortId": "34c91ff1-0683-4e29-b924-0a72cb7ef1f7",
-            "destNodeId": "a07454fd-0d29-4cba-b75d-2e29727c4179",
+            "destNodeId": "3d536cc7-7f1f-4dbd-88a3-56a854dd8be2",
             "destPortId": "933b3307-5dc4-4e62-8904-597f6ca27865",
             "loopAware": false,
             "closesLoop": false
         },
-        "d845faff-6036-4b88-b936-597a24160d8e": {
-            "id": "d845faff-6036-4b88-b936-597a24160d8e",
+        "5fc3f25a-3e93-46ff-9c44-97efaf54cf22": {
+            "id": "5fc3f25a-3e93-46ff-9c44-97efaf54cf22",
             "srcNodeId": "e39ae446-c774-4ce3-b4d4-889570592da3",
             "srcPortId": "d6660913-cbcd-482d-830d-9073d6251909",
             "destNodeId": "b00edc20-bcc3-46d6-967d-a19bf0294ae3",
@@ -2423,45 +2423,45 @@
             "loopAware": false,
             "closesLoop": false
         },
-        "2969a3e7-921a-4a7a-8425-10c0e17f5f48": {
-            "id": "2969a3e7-921a-4a7a-8425-10c0e17f5f48",
-            "srcNodeId": "53a3efef-97bb-46cf-ad85-e4966443d8f1",
+        "e736ce0c-e00f-4341-a8a1-08c6c26e7f6e": {
+            "id": "e736ce0c-e00f-4341-a8a1-08c6c26e7f6e",
+            "srcNodeId": "267a1c38-e2fb-438f-b604-57fce5c3868b",
             "srcPortId": "4faac86a-3033-4f45-bb2b-f457183aa02c",
             "destNodeId": "4ef0c680-6708-468c-9b88-def44a034691",
             "destPortId": "34c91ff1-0683-4e29-b924-0a72cb7ef1f7",
             "loopAware": false,
             "closesLoop": false
         },
-        "d64b57b4-9d02-4123-827d-6fc82a8e7e38": {
-            "id": "d64b57b4-9d02-4123-827d-6fc82a8e7e38",
-            "srcNodeId": "a07454fd-0d29-4cba-b75d-2e29727c4179",
+        "5efa7f62-2249-40c5-bde8-3e398908c665": {
+            "id": "5efa7f62-2249-40c5-bde8-3e398908c665",
+            "srcNodeId": "3d536cc7-7f1f-4dbd-88a3-56a854dd8be2",
             "srcPortId": "933b3307-5dc4-4e62-8904-597f6ca27865",
             "destNodeId": "e39ae446-c774-4ce3-b4d4-889570592da3",
             "destPortId": "d6660913-cbcd-482d-830d-9073d6251909",
             "loopAware": false,
             "closesLoop": false
         },
-        "c84f3d9d-1deb-4839-acc6-afd332fe9723": {
-            "id": "c84f3d9d-1deb-4839-acc6-afd332fe9723",
-            "srcNodeId": "d3a04a2b-0169-4d6b-b283-37a6c69b65b8",
+        "46bbea9a-e03d-4a8b-a801-57a1b67fc9c2": {
+            "id": "46bbea9a-e03d-4a8b-a801-57a1b67fc9c2",
+            "srcNodeId": "885bb2d7-8906-459c-a311-491f664b0bdf",
             "srcPortId": "ee20e187-c7cc-4fca-a2e8-67d87e1adcb7",
             "destNodeId": "5c2d89c1-1528-44ac-9a36-ef2dd4101091",
             "destPortId": "463833f3-7994-47ef-97e3-b5d0144b0eec",
             "loopAware": false,
             "closesLoop": false
         },
-        "7cbac5b6-215d-4562-ad83-f83d7f3f3663": {
-            "id": "7cbac5b6-215d-4562-ad83-f83d7f3f3663",
+        "c1614356-ef83-4231-9e3c-0ae1b6169831": {
+            "id": "c1614356-ef83-4231-9e3c-0ae1b6169831",
             "srcNodeId": "5c2d89c1-1528-44ac-9a36-ef2dd4101091",
             "srcPortId": "463833f3-7994-47ef-97e3-b5d0144b0eec",
-            "destNodeId": "8f230b1d-ab95-40db-8af1-2f623cca1195",
+            "destNodeId": "2d82502b-a83a-46d6-8f80-934406630ab7",
             "destPortId": "26ff8133-e241-4e42-803e-691f5432b089",
             "loopAware": false,
             "closesLoop": false
         },
-        "35a2c614-b8fa-4484-beb6-8a17641b84fc": {
-            "id": "35a2c614-b8fa-4484-beb6-8a17641b84fc",
-            "srcNodeId": "8f230b1d-ab95-40db-8af1-2f623cca1195",
+        "eafbc32e-b3c1-4ef8-b62b-aebff7ba506c": {
+            "id": "eafbc32e-b3c1-4ef8-b62b-aebff7ba506c",
+            "srcNodeId": "2d82502b-a83a-46d6-8f80-934406630ab7",
             "srcPortId": "26ff8133-e241-4e42-803e-691f5432b089",
             "destNodeId": "b985a1a6-7ac4-48ee-a376-aaab5ccde34a",
             "destPortId": "4a255169-a67b-49b5-b36c-be6048922adc",
