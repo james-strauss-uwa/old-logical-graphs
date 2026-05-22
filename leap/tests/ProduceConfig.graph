@@ -1,319 +1,606 @@
 {
-    "linkDataArray": [
-        {
-            "toPort": "d335aa66-6366-4806-a520-7e1fcdae38ef", 
-            "fromPort": "4e7aa2e7-c5c0-4171-83e2-0b849affb3a2", 
-            "loop_aware": "0", 
-            "from": -4, 
-            "to": -2
-        }, 
-        {
-            "toPort": "a0728ecc-499d-4d47-a00c-dc1c5e6ce692", 
-            "fromPort": "ba0a5fb0-f0af-4e02-941e-939141cbd81b", 
-            "loop_aware": "0", 
-            "from": -2, 
-            "to": -8
-        }
-    ], 
-    "nodeDataArray": [
-        {
-            "outputPorts": [], 
-            "color": "#DDAD00", 
-            "text": "Scatter", 
-            "isGroup": true, 
-            "height": 436, 
-            "streaming": false, 
-            "subject": null, 
-            "category": "Scatter", 
-            "outputAppFields": [], 
-            "selected": false, 
-            "canHaveInputs": true, 
-            "showPorts": false, 
-            "width": 657, 
-            "inputAppFields": [
-                {
-                    "text": "Execution time", 
-                    "name": "execution_time", 
-                    "value": "5", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Num CPUs", 
-                    "name": "num_cpus", 
-                    "value": "1", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Group start", 
-                    "name": "group_start", 
-                    "value": "0", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Appclass", 
-                    "name": "appclass", 
-                    "value": "leap_drops.ProduceConfig.ProduceConfig", 
-                    "description": ""
-                }
-            ], 
-            "exitApplicationType": "None", 
-            "inputApplicationType": "Component", 
-            "inputApplicationName": "ProduceConfig", 
-            "drawOrderHint": 0, 
-            "outputApplicationType": "None", 
-            "description": "Placeholder 'scatter' description", 
-            "outputLocalPorts": [
-                {
-                    "IdText": "Config", 
-                    "Id": "ba0a5fb0-f0af-4e02-941e-939141cbd81b"
-                }
-            ], 
-            "collapsed": false, 
-            "canHaveOutputs": true, 
-            "outputApplicationName": "", 
-            "inputLocalPorts": [
-                {
-                    "IdText": "event", 
-                    "Id": "6aa15f60-4927-4cb1-9ad0-fd504b381737"
-                }
-            ], 
-            "key": -2, 
-            "isData": false, 
-            "fields": [
-                {
-                    "text": "Number of copies", 
-                    "name": "num_of_copies", 
-                    "value": "4", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Scatter axis", 
-                    "name": "scatter_axis", 
-                    "value": "time", 
-                    "description": ""
-                }
-            ], 
-            "expanded": true, 
-            "exitApplicationName": "", 
-            "inputPorts": [
-                {
-                    "IdText": "Directions", 
-                    "Id": "d335aa66-6366-4806-a520-7e1fcdae38ef"
-                }
-            ], 
-            "y": 152.2624712589346, 
-            "x": 661.0660016288416, 
-            "categoryType": "Group"
-        }, 
-        {
-            "outputPorts": [
-                {
-                    "IdText": "Directions", 
-                    "Id": "4e7aa2e7-c5c0-4171-83e2-0b849affb3a2"
-                }
-            ], 
-            "color": "#394BB2", 
-            "text": "Directions", 
-            "isGroup": false, 
-            "height": 200, 
-            "streaming": false, 
-            "subject": null, 
-            "category": "File", 
-            "outputAppFields": [], 
-            "selected": false, 
-            "canHaveInputs": true, 
-            "showPorts": false, 
-            "width": 200, 
-            "inputAppFields": [], 
-            "exitApplicationType": "None", 
-            "inputApplicationType": "None", 
-            "inputApplicationName": "", 
-            "drawOrderHint": 0, 
-            "outputApplicationType": "None", 
-            "description": "", 
-            "outputLocalPorts": [], 
-            "collapsed": false, 
-            "canHaveOutputs": true, 
-            "outputApplicationName": "", 
-            "inputLocalPorts": [], 
-            "key": -4, 
-            "isData": true, 
-            "fields": [
-                {
-                    "text": "Data volume", 
-                    "name": "data_volume", 
-                    "value": "5", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Group end", 
-                    "name": "group_end", 
-                    "value": "0", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Check file path exists", 
-                    "name": "check_filepath_exists", 
-                    "value": "1", 
-                    "description": ""
-                }, 
-                {
-                    "text": "File path", 
-                    "name": "filepath", 
-                    "value": "directions.csv", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Directory name", 
-                    "name": "dirname", 
-                    "value": "/Users/james/working/leap-accelerate/leap_drops/", 
-                    "description": ""
-                }
-            ], 
-            "expanded": false, 
-            "exitApplicationName": "", 
-            "inputPorts": [], 
-            "y": 98.932463114728, 
-            "x": 383.81964696300935, 
-            "categoryType": "Data"
-        }, 
-        {
-            "outputPorts": [], 
-            "color": "#799938", 
-            "text": "", 
-            "isGroup": false, 
-            "height": 102.2271675598681, 
-            "streaming": false, 
-            "subject": null, 
-            "category": "Comment", 
-            "outputAppFields": [], 
-            "selected": false, 
-            "canHaveInputs": false, 
-            "showPorts": false, 
-            "width": 207.0498850357386, 
-            "inputAppFields": [], 
-            "exitApplicationType": "None", 
-            "inputApplicationType": "None", 
-            "inputApplicationName": "", 
-            "drawOrderHint": 0, 
-            "outputApplicationType": "None", 
-            "description": "", 
-            "outputLocalPorts": [], 
-            "collapsed": false, 
-            "canHaveOutputs": false, 
-            "outputApplicationName": "", 
-            "inputLocalPorts": [], 
-            "key": -9, 
-            "isData": false, 
-            "fields": [
-                {
-                    "text": "Comment", 
-                    "name": "comment", 
-                    "value": "Test the ProduceConfig PythonApp in isolation. It should split the directions CSV input into config files for N instances of LeapAccelerateCLI", 
-                    "description": "The text value of the comment"
-                }
-            ], 
-            "expanded": false, 
-            "exitApplicationName": "", 
-            "inputPorts": [], 
-            "y": 627.6178075348281, 
-            "x": 390.8871838482813, 
-            "categoryType": "Other"
-        }, 
-        {
-            "outputPorts": [
-                {
-                    "IdText": "event", 
-                    "Id": "247be1d4-d633-465f-9534-5368bb24923e"
-                }, 
-                {
-                    "IdText": "Config", 
-                    "Id": "b12ad1dd-2570-4ce2-bb09-a97ed48d4089"
-                }
-            ], 
-            "color": "#394BB2", 
-            "text": "Config", 
-            "isGroup": false, 
-            "height": 200, 
-            "streaming": false, 
-            "subject": null, 
-            "category": "File", 
-            "group": -2, 
-            "selected": true, 
-            "canHaveInputs": true, 
-            "showPorts": true, 
-            "width": 200, 
-            "inputAppFields": [], 
-            "exitApplicationType": "None", 
-            "inputApplicationType": "None", 
-            "inputApplicationName": "", 
-            "drawOrderHint": 0, 
-            "outputApplicationType": "None", 
-            "description": "", 
-            "outputLocalPorts": [], 
-            "collapsed": false, 
-            "canHaveOutputs": true, 
-            "outputApplicationName": "", 
-            "inputLocalPorts": [], 
-            "key": -8, 
-            "outputAppFields": [], 
-            "isData": true, 
-            "fields": [
-                {
-                    "text": "Data volume", 
-                    "name": "data_volume", 
-                    "value": "5", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Group end", 
-                    "name": "group_end", 
-                    "value": "0", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Check file path exists", 
-                    "name": "check_filepath_exists", 
-                    "value": "1", 
-                    "description": ""
-                }, 
-                {
-                    "text": "File path", 
-                    "name": "filepath", 
-                    "value": "", 
-                    "description": ""
-                }, 
-                {
-                    "text": "Directory name", 
-                    "name": "dirname", 
-                    "value": "/Users/james/working/leap-accelerate/leap_drops/output/", 
-                    "description": ""
-                }
-            ], 
-            "expanded": false, 
-            "exitApplicationName": "", 
-            "inputPorts": [
-                {
-                    "IdText": "event", 
-                    "Id": "4d17d258-39f8-451b-8350-f3c1f79e0fd1"
-                }, 
-                {
-                    "IdText": "Config", 
-                    "Id": "a0728ecc-499d-4d47-a00c-dc1c5e6ce692"
-                }
-            ], 
-            "y": 283.1312356294673, 
-            "x": 672.0330008144208, 
-            "categoryType": "Data"
-        }
-    ], 
     "modelData": {
-        "repoBranch": "master", 
-        "filePath": "leap/tests/ProduceConfig.graph", 
-        "fileType": "graph", 
-        "repo": "ICRAR/EAGLE-graph-repo", 
-        "sha": "", 
-        "git_url": "", 
-        "repoService": "GitHub"
-    }
+        "name": "ProduceConfig.graph",
+        "shortDescription": "",
+        "detailedDescription": "",
+        "type": "Graph",
+        "schemaVersion": "V4",
+        "readonly": true,
+        "location": {
+            "repositoryService": "GitHub",
+            "repositoryBranch": "main",
+            "repositoryName": "james-strauss-uwa/old-logical-graphs",
+            "repositoryPath": "leap/tests",
+            "repositoryFileName": "ProduceConfig.graph",
+            "commitHash": "3488d247d3c8ff7b2f4c47769ae5a2cb3ae7ee17",
+            "downloadUrl": "https://raw.githubusercontent.com/james-strauss-uwa/old-logical-graphs/3488d247d3c8ff7b2f4c47769ae5a2cb3ae7ee17/leap/tests/ProduceConfig.graph"
+        },
+        "generatorVersion": "",
+        "generatorCommitHash": "",
+        "generatorName": "",
+        "repositoryUrl": "",
+        "graphLocation": {
+            "repositoryService": "Unknown",
+            "repositoryBranch": "",
+            "repositoryName": "",
+            "repositoryPath": "",
+            "repositoryFileName": "",
+            "commitHash": "",
+            "downloadUrl": ""
+        },
+        "signature": "",
+        "lastModifiedName": "",
+        "lastModifiedEmail": "",
+        "lastModifiedDatetime": 0,
+        "numLGNodes": 0,
+        "repo": "james-strauss-uwa/old-logical-graphs",
+        "repoBranch": "graph-updates-20260522-103549",
+        "repoService": "GitHub",
+        "filePath": "leap/tests/ProduceConfig.graph",
+        "commitHash": "",
+        "downloadUrl": ""
+    },
+    "activeGraphConfigId": null,
+    "graphConfigurations": {},
+    "nodes": {
+        "718af821-6d06-4156-a14d-74a0863190b5": {
+            "category": "Scatter",
+            "categoryType": "Construct",
+            "id": "718af821-6d06-4156-a14d-74a0863190b5",
+            "name": "Scatter",
+            "description": "Placeholder 'scatter' description",
+            "x": 661.0660016288416,
+            "y": 152.2624712589346,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "139f64d2-468d-40fe-9ed4-6b6c167e9b7a": {
+                    "name": "streaming",
+                    "value": false,
+                    "defaultValue": "false",
+                    "description": "Specifies whether this data component streams input and output data",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "139f64d2-468d-40fe-9ed4-6b6c167e9b7a",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "f553f053-7bef-46e4-81cd-b6dd63153e87": {
+                    "name": "num_of_copies",
+                    "value": "4",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "f553f053-7bef-46e4-81cd-b6dd63153e87",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "72e2e89f-f04b-4b6d-bf77-1bc34759b4f7": {
+                    "name": "scatter_axis",
+                    "value": "time",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "72e2e89f-f04b-4b6d-bf77-1bc34759b4f7",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": "3fbb25cb-48b2-443e-b1a7-72cbc6fc5e82",
+            "outputApplicationId": null
+        },
+        "3fbb25cb-48b2-443e-b1a7-72cbc6fc5e82": {
+            "category": "Component",
+            "categoryType": "Unknown",
+            "id": "3fbb25cb-48b2-443e-b1a7-72cbc6fc5e82",
+            "name": "ProduceConfig",
+            "description": "",
+            "x": 0,
+            "y": 0,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "parentId": null,
+            "embedId": "718af821-6d06-4156-a14d-74a0863190b5",
+            "fields": {
+                "f959122e-da2a-47f4-a67e-1ace0623b837": {
+                    "name": "execution_time",
+                    "value": "5",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "f959122e-da2a-47f4-a67e-1ace0623b837",
+                    "parameterType": "Unknown",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "f1ea5ce2-7620-419d-b2c8-cc90fba86c5e": {
+                    "name": "num_cpus",
+                    "value": "1",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "f1ea5ce2-7620-419d-b2c8-cc90fba86c5e",
+                    "parameterType": "Unknown",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "0b99e0d9-9d99-455c-9fef-fffec56ce918": {
+                    "name": "group_start",
+                    "value": "0",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "0b99e0d9-9d99-455c-9fef-fffec56ce918",
+                    "parameterType": "Unknown",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "bb22254c-2545-4010-995f-9ffadc958f54": {
+                    "name": "appclass",
+                    "value": "leap_drops.ProduceConfig.ProduceConfig",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "bb22254c-2545-4010-995f-9ffadc958f54",
+                    "parameterType": "Unknown",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "d335aa66-6366-4806-a520-7e1fcdae38ef": {
+                    "name": "Directions",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "d335aa66-6366-4806-a520-7e1fcdae38ef",
+                    "parameterType": "Application",
+                    "usage": "InputPort",
+                    "edgeIds": [
+                        "3c7f2dda-0da2-4fa4-b3d4-3574dc2421b2"
+                    ]
+                },
+                "6aa15f60-4927-4cb1-9ad0-fd504b381737": {
+                    "name": "event",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "6aa15f60-4927-4cb1-9ad0-fd504b381737",
+                    "parameterType": "Application",
+                    "usage": "OutputPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        },
+        "4d6626e2-a576-4f7e-9fdc-fb555f31bc18": {
+            "category": "File",
+            "categoryType": "Data",
+            "id": "4d6626e2-a576-4f7e-9fdc-fb555f31bc18",
+            "name": "Directions",
+            "description": "",
+            "x": 383.81964696300935,
+            "y": 98.932463114728,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "47b05e42-9e98-48ed-96e2-048dba7934d3": {
+                    "name": "streaming",
+                    "value": false,
+                    "defaultValue": "false",
+                    "description": "Specifies whether this data component streams input and output data",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "47b05e42-9e98-48ed-96e2-048dba7934d3",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "ff759b6b-59f9-43d2-b9ea-838101c78b0a": {
+                    "name": "data_volume",
+                    "value": "5",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "ff759b6b-59f9-43d2-b9ea-838101c78b0a",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "e998a653-e71c-4254-bf6f-bd789919bb76": {
+                    "name": "group_end",
+                    "value": "0",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "e998a653-e71c-4254-bf6f-bd789919bb76",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "457e9444-0baa-42bb-8699-fb9b48ecf215": {
+                    "name": "check_filepath_exists",
+                    "value": "1",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "457e9444-0baa-42bb-8699-fb9b48ecf215",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "53f1f15d-fd27-4d6d-8ad6-f93ead129a91": {
+                    "name": "filepath",
+                    "value": "directions.csv",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "53f1f15d-fd27-4d6d-8ad6-f93ead129a91",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "9927152b-aa67-46f2-935f-6a280d54453d": {
+                    "name": "dirname",
+                    "value": "/Users/james/working/leap-accelerate/leap_drops/",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "9927152b-aa67-46f2-935f-6a280d54453d",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "4e7aa2e7-c5c0-4171-83e2-0b849affb3a2": {
+                    "name": "Directions",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "4e7aa2e7-c5c0-4171-83e2-0b849affb3a2",
+                    "parameterType": "Application",
+                    "usage": "OutputPort",
+                    "edgeIds": [
+                        "3c7f2dda-0da2-4fa4-b3d4-3574dc2421b2"
+                    ]
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        },
+        "b19cbd7b-1890-4da9-bbea-05e52977b8cc": {
+            "category": "Comment",
+            "categoryType": "Other",
+            "id": "b19cbd7b-1890-4da9-bbea-05e52977b8cc",
+            "name": "",
+            "description": "",
+            "x": 390.8871838482813,
+            "y": 627.6178075348281,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "parentId": null,
+            "embedId": null,
+            "fields": {
+                "1904ea4e-73cc-4d3b-83b2-9db6c5a632cd": {
+                    "name": "streaming",
+                    "value": false,
+                    "defaultValue": "false",
+                    "description": "Specifies whether this data component streams input and output data",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "1904ea4e-73cc-4d3b-83b2-9db6c5a632cd",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "b0d32132-c50e-473c-9389-06390f947d73": {
+                    "name": "comment",
+                    "value": "Test the ProduceConfig PythonApp in isolation. It should split the directions CSV input into config files for N instances of LeapAccelerateCLI",
+                    "defaultValue": "",
+                    "description": "The text value of the comment",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "b0d32132-c50e-473c-9389-06390f947d73",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        },
+        "2d44a77f-17bf-46c3-987a-334ea556b2ca": {
+            "category": "File",
+            "categoryType": "Data",
+            "id": "2d44a77f-17bf-46c3-987a-334ea556b2ca",
+            "name": "Config",
+            "description": "",
+            "x": 672.0330008144208,
+            "y": 283.1312356294673,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "parentId": "718af821-6d06-4156-a14d-74a0863190b5",
+            "embedId": null,
+            "fields": {
+                "0ecac1b0-b84b-4085-a67f-a837e1b47833": {
+                    "name": "streaming",
+                    "value": false,
+                    "defaultValue": "false",
+                    "description": "Specifies whether this data component streams input and output data",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "0ecac1b0-b84b-4085-a67f-a837e1b47833",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "df6f213e-26e8-4fca-a96c-500b28e899ef": {
+                    "name": "data_volume",
+                    "value": "5",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "df6f213e-26e8-4fca-a96c-500b28e899ef",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "6c69f659-4ad2-487a-86a3-3b49534cbf14": {
+                    "name": "group_end",
+                    "value": "0",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "6c69f659-4ad2-487a-86a3-3b49534cbf14",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "526390d5-bb00-4406-85f5-fa29aca32fa4": {
+                    "name": "check_filepath_exists",
+                    "value": "1",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "526390d5-bb00-4406-85f5-fa29aca32fa4",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "5df41c86-e92c-46b8-baa9-e322d8dc9158": {
+                    "name": "filepath",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "5df41c86-e92c-46b8-baa9-e322d8dc9158",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "3159d75b-08b6-41eb-bd74-642e61db6599": {
+                    "name": "dirname",
+                    "value": "/Users/james/working/leap-accelerate/leap_drops/output/",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "3159d75b-08b6-41eb-bd74-642e61db6599",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "4d17d258-39f8-451b-8350-f3c1f79e0fd1": {
+                    "name": "event",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "4d17d258-39f8-451b-8350-f3c1f79e0fd1",
+                    "parameterType": "Application",
+                    "usage": "InputPort",
+                    "edgeIds": []
+                },
+                "a0728ecc-499d-4d47-a00c-dc1c5e6ce692": {
+                    "name": "Config",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "a0728ecc-499d-4d47-a00c-dc1c5e6ce692",
+                    "parameterType": "Application",
+                    "usage": "InputPort",
+                    "edgeIds": []
+                },
+                "247be1d4-d633-465f-9534-5368bb24923e": {
+                    "name": "event",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "247be1d4-d633-465f-9534-5368bb24923e",
+                    "parameterType": "Application",
+                    "usage": "OutputPort",
+                    "edgeIds": []
+                },
+                "b12ad1dd-2570-4ce2-bb09-a97ed48d4089": {
+                    "name": "Config",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Unknown",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "b12ad1dd-2570-4ce2-bb09-a97ed48d4089",
+                    "parameterType": "Application",
+                    "usage": "OutputPort",
+                    "edgeIds": []
+                }
+            },
+            "inputApplicationId": null,
+            "outputApplicationId": null
+        }
+    },
+    "edges": {
+        "3c7f2dda-0da2-4fa4-b3d4-3574dc2421b2": {
+            "id": "3c7f2dda-0da2-4fa4-b3d4-3574dc2421b2",
+            "srcNodeId": "4d6626e2-a576-4f7e-9fdc-fb555f31bc18",
+            "srcPortId": "4e7aa2e7-c5c0-4171-83e2-0b849affb3a2",
+            "destNodeId": "3fbb25cb-48b2-443e-b1a7-72cbc6fc5e82",
+            "destPortId": "d335aa66-6366-4806-a520-7e1fcdae38ef",
+            "loopAware": false,
+            "closesLoop": false
+        }
+    },
+    "visuals": {}
 }
