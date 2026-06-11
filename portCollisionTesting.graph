@@ -64,13 +64,13 @@
                 "generatorName": "",
                 "repositoryUrl": "",
                 "graphLocation": {
-                    "repositoryService": "Unknown",
-                    "repositoryBranch": "",
-                    "repositoryName": "",
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
                     "repositoryPath": "",
-                    "repositoryFileName": "",
-                    "commitHash": "",
-                    "downloadUrl": ""
+                    "repositoryFileName": "portCollisionTesting.graph",
+                    "commitHash": "c496c83067ea9e971b5445eec0d37c1ac342791f",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/c496c83067ea9e971b5445eec0d37c1ac342791f/portCollisionTesting.graph"
                 },
                 "signature": "",
                 "lastModifiedName": "",
@@ -225,7 +225,7 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "d68fee88-e5a4-4add-aeb3-63b7447f5d78"
+                        "cb87c808-1256-46c0-800d-4d8556a8c098"
                     ]
                 },
                 "a6c25789-a428-4a78-85a4-5e6fad78ce52": {
@@ -390,8 +390,8 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "763c6b73-c9ae-404f-9991-4f465f197964",
-                        "d68fee88-e5a4-4add-aeb3-63b7447f5d78"
+                        "df817df0-6d8e-4b00-ad5c-93ee02de1bdd",
+                        "cb87c808-1256-46c0-800d-4d8556a8c098"
                     ]
                 },
                 "4201defc-e01b-4b5b-9884-53ae4adc0272": {
@@ -455,7 +455,7 @@
                     "parameterType": "Component",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "8f60f6e1-d5f9-433c-aaae-a904b1fdb5a4"
+                        "c2663957-7999-45e3-b3e8-b6f254f0fd78"
                     ]
                 }
             },
@@ -604,7 +604,7 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "763c6b73-c9ae-404f-9991-4f465f197964"
+                        "df817df0-6d8e-4b00-ad5c-93ee02de1bdd"
                     ]
                 },
                 "bb8b6bb7-65b2-4a66-a072-fd51c21951e1": {
@@ -769,7 +769,7 @@
                     "parameterType": "Application",
                     "usage": "InputOutput",
                     "edgeIds": [
-                        "8f60f6e1-d5f9-433c-aaae-a904b1fdb5a4"
+                        "c2663957-7999-45e3-b3e8-b6f254f0fd78"
                     ]
                 }
             },
@@ -864,8 +864,8 @@
         }
     },
     "edges": {
-        "763c6b73-c9ae-404f-9991-4f465f197964": {
-            "id": "763c6b73-c9ae-404f-9991-4f465f197964",
+        "df817df0-6d8e-4b00-ad5c-93ee02de1bdd": {
+            "id": "df817df0-6d8e-4b00-ad5c-93ee02de1bdd",
             "srcNodeId": "516bd20c-29d9-4f8e-b77c-a49a654e87c2",
             "srcPortId": "509c5b79-f295-4efa-bdb6-584fb404ce54",
             "destNodeId": "d32c758c-cab7-4b4b-99ce-5fd865d08201",
@@ -873,8 +873,8 @@
             "loopAware": false,
             "closesLoop": false
         },
-        "8f60f6e1-d5f9-433c-aaae-a904b1fdb5a4": {
-            "id": "8f60f6e1-d5f9-433c-aaae-a904b1fdb5a4",
+        "c2663957-7999-45e3-b3e8-b6f254f0fd78": {
+            "id": "c2663957-7999-45e3-b3e8-b6f254f0fd78",
             "srcNodeId": "c9920260-9d83-45e0-97dc-e01ee4616da2",
             "srcPortId": "c87bd86b-f0cd-496e-a683-9d832902f8ca",
             "destNodeId": "516bd20c-29d9-4f8e-b77c-a49a654e87c2",
@@ -882,8 +882,8 @@
             "loopAware": false,
             "closesLoop": false
         },
-        "d68fee88-e5a4-4add-aeb3-63b7447f5d78": {
-            "id": "d68fee88-e5a4-4add-aeb3-63b7447f5d78",
+        "cb87c808-1256-46c0-800d-4d8556a8c098": {
+            "id": "cb87c808-1256-46c0-800d-4d8556a8c098",
             "srcNodeId": "3caaeb96-abde-4246-b3f2-16f422623768",
             "srcPortId": "59306a03-f3fc-4b52-b8cd-98e577e95fc0",
             "destNodeId": "516bd20c-29d9-4f8e-b77c-a49a654e87c2",

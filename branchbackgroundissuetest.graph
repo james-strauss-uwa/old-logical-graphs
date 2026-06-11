@@ -64,13 +64,13 @@
                 "generatorName": "",
                 "repositoryUrl": "",
                 "graphLocation": {
-                    "repositoryService": "Unknown",
-                    "repositoryBranch": "",
-                    "repositoryName": "",
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "main",
+                    "repositoryName": "M-Wicenec/EagleTest",
                     "repositoryPath": "",
-                    "repositoryFileName": "",
-                    "commitHash": "",
-                    "downloadUrl": ""
+                    "repositoryFileName": "branchbackgroundissuetest.graph",
+                    "commitHash": "b913322a32803b8507ca7387c4174f1a6b051f69",
+                    "downloadUrl": "https://raw.githubusercontent.com/M-Wicenec/EagleTest/b913322a32803b8507ca7387c4174f1a6b051f69/branchbackgroundissuetest.graph"
                 },
                 "signature": "",
                 "lastModifiedName": "",
@@ -327,6 +327,38 @@
                     "encoding": "pickle",
                     "id": "ef6996b6-0018-4106-af4e-d69709d9c0ee",
                     "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "0c8e1cbe-c88d-4526-8b62-9f2745e0ad1d": {
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "0c8e1cbe-c88d-4526-8b62-9f2745e0ad1d",
+                    "parameterType": "Constraint",
+                    "usage": "NoPort",
+                    "edgeIds": []
+                },
+                "b0f24a66-e8b8-4793-8cf0-cb21602f1f51": {
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "b0f24a66-e8b8-4793-8cf0-cb21602f1f51",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 }

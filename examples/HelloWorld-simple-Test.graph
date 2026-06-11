@@ -43,10 +43,10 @@
     "activeGraphConfigId": null,
     "graphConfigurations": {},
     "nodes": {
-        "3c9cb320-f088-479d-8a6e-7ba698fa5c85": {
+        "9aa6712e-fdde-4c83-9d2b-1639983d6486": {
             "category": "PythonApp",
             "categoryType": "Application",
-            "id": "3c9cb320-f088-479d-8a6e-7ba698fa5c85",
+            "id": "9aa6712e-fdde-4c83-9d2b-1639983d6486",
             "name": "HelloWorldApp",
             "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
             "x": 476.1365106949407,
@@ -91,7 +91,7 @@
                     "edgeIds": []
                 },
                 "9ea664f6-1cd9-4d2f-933f-931029bb25e8": {
-                    "name": "appclass",
+                    "name": "dropclass",
                     "value": "dlg.apps.simple.HelloWorldApp",
                     "defaultValue": "",
                     "description": "Application class",
@@ -118,7 +118,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "565f310e-c602-4298-8318-845e0e17f098",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -134,7 +134,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "74b1a395-0f56-499e-9a43-73c98094af3e",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -217,7 +217,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "2acd053b-024f-4e0b-9169-284c790eb019"
+                        "b4d66bdd-2412-4ab2-8c70-38df56cd4a91"
                     ]
                 },
                 "3ecd0d9b-0c9e-4f56-8402-0e3ad68f4058": {
@@ -235,17 +235,17 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "6e33c102-cd84-41b2-a8de-fd20fb6f88b8"
+                        "b524fe14-23f1-4f40-aef9-cb95e11e2801"
                     ]
                 }
             },
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "8f417745-c8f2-46d2-84e6-d82a48e875d5": {
+        "2cb87261-f1ba-4b50-a006-24312347f75d": {
             "category": "File",
             "categoryType": "Data",
-            "id": "8f417745-c8f2-46d2-84e6-d82a48e875d5",
+            "id": "2cb87261-f1ba-4b50-a006-24312347f75d",
             "name": "File",
             "description": "A standard file on a filesystem mounted to the deployment machine",
             "x": 559.3914134388866,
@@ -301,7 +301,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "99f4ca11-0fc9-4326-b363-f0e1f2ee365d",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -384,7 +384,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "6e33c102-cd84-41b2-a8de-fd20fb6f88b8"
+                        "b524fe14-23f1-4f40-aef9-cb95e11e2801"
                     ]
                 },
                 "006abdec-e3ec-4b54-87b8-5320db46ca02": {
@@ -402,15 +402,31 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": []
+                },
+                "2fbbd391-c1cd-4941-81df-44acd4101477": {
+                    "name": "dropclass",
+                    "value": "dlg.data.drops.file.FileDROP",
+                    "defaultValue": "dlg.data.drops.file.FileDROP",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "2fbbd391-c1cd-4941-81df-44acd4101477",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
                 }
             },
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "b2440975-f9f1-4614-adb5-36d18195462a": {
+        "cad78a3d-a491-4280-8060-4f1e4e39eaee": {
             "category": "Memory",
             "categoryType": "Data",
-            "id": "b2440975-f9f1-4614-adb5-36d18195462a",
+            "id": "cad78a3d-a491-4280-8060-4f1e4e39eaee",
             "name": "Element",
             "description": "In-memory storage of intermediate data products",
             "x": 391.6313836096698,
@@ -466,7 +482,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "0e7ce57a-56ef-4a8f-b7aa-6a95a17c71bd",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -501,7 +517,7 @@
                     "parameterType": "Application",
                     "usage": "InputPort",
                     "edgeIds": [
-                        "45fa85e9-50d2-4a25-a4c5-803911af835b"
+                        "bb3ebdf6-fac7-4bd1-9e12-ff042c32e728"
                     ]
                 },
                 "45339a5a-f31f-447b-8e9d-3c4ea0831baa": {
@@ -519,17 +535,33 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "2acd053b-024f-4e0b-9169-284c790eb019"
+                        "b4d66bdd-2412-4ab2-8c70-38df56cd4a91"
                     ]
+                },
+                "32c99c4f-94e7-422b-a001-1f27edc43f93": {
+                    "name": "dropclass",
+                    "value": "dlg.data.drops.memory.InMemoryDROP",
+                    "defaultValue": "dlg.data.drops.memory.InMemoryDROP",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "encoding": "pickle",
+                    "id": "32c99c4f-94e7-422b-a001-1f27edc43f93",
+                    "parameterType": "Component",
+                    "usage": "NoPort",
+                    "edgeIds": []
                 }
             },
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "5a702ab8-fb47-4767-8031-840879805bd5": {
+        "9b1c125c-0855-4139-84df-14eeb97312fb": {
             "category": "PythonApp",
             "categoryType": "Application",
-            "id": "5a702ab8-fb47-4767-8031-840879805bd5",
+            "id": "9b1c125c-0855-4139-84df-14eeb97312fb",
             "name": "String2JSON",
             "description": "App that reads a string from a single input and tries to convert that to JSON",
             "x": 300.45898838447437,
@@ -585,7 +617,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "dac09695-3c5e-443a-be6d-b72e7a4f5f50",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -601,7 +633,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "b584b1d3-06eb-4591-92ec-d451f4cda181",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -622,7 +654,7 @@
                     "edgeIds": []
                 },
                 "b8d568b3-4eb5-47b9-925c-65eb81ed01c2": {
-                    "name": "appclass",
+                    "name": "dropclass",
                     "value": "dlg_example_cmpts.apps.String2JSON",
                     "defaultValue": "",
                     "description": "Application class",
@@ -668,17 +700,17 @@
                     "parameterType": "Application",
                     "usage": "OutputPort",
                     "edgeIds": [
-                        "45fa85e9-50d2-4a25-a4c5-803911af835b"
+                        "bb3ebdf6-fac7-4bd1-9e12-ff042c32e728"
                     ]
                 }
             },
             "inputApplicationId": null,
             "outputApplicationId": null
         },
-        "583bd25d-170b-4449-ad4f-42027fccff38": {
+        "3461168d-6105-4960-86a2-1e4c88d5712f": {
             "category": "PythonApp",
             "categoryType": "Application",
-            "id": "583bd25d-170b-4449-ad4f-42027fccff38",
+            "id": "3461168d-6105-4960-86a2-1e4c88d5712f",
             "name": "PyFuncApp",
             "description": "An application that wraps a simple python function. The inputs of the application are treated as the arguments of the function. Conversely, the output of the function is treated as the output of the application. If the application has more than one output, the result of calling the function is treated as an iterable, with each individual object being written to its corresponding output.",
             "x": 233.92520091168046,
@@ -691,7 +723,7 @@
             "embedId": null,
             "fields": {
                 "40b414a2-b167-418e-b1f3-6f355a816af3": {
-                    "name": "appclass",
+                    "name": "dropclass",
                     "value": "dlg.apps.pyfunc.PyFuncApp",
                     "defaultValue": "dlg.apps.pyfunc.PyFuncApp",
                     "description": "Application class",
@@ -718,7 +750,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "a743c8e0-7e6f-4258-8bb5-a6c9efecbaad",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -734,7 +766,7 @@
                     "positional": false,
                     "encoding": "pickle",
                     "id": "2da6f786-9bf7-4746-8170-75ca74084fdb",
-                    "parameterType": "Component",
+                    "parameterType": "Constraint",
                     "usage": "NoPort",
                     "edgeIds": []
                 },
@@ -898,29 +930,29 @@
         }
     },
     "edges": {
-        "6e33c102-cd84-41b2-a8de-fd20fb6f88b8": {
-            "id": "6e33c102-cd84-41b2-a8de-fd20fb6f88b8",
-            "srcNodeId": "3c9cb320-f088-479d-8a6e-7ba698fa5c85",
+        "b524fe14-23f1-4f40-aef9-cb95e11e2801": {
+            "id": "b524fe14-23f1-4f40-aef9-cb95e11e2801",
+            "srcNodeId": "9aa6712e-fdde-4c83-9d2b-1639983d6486",
             "srcPortId": "3ecd0d9b-0c9e-4f56-8402-0e3ad68f4058",
-            "destNodeId": "8f417745-c8f2-46d2-84e6-d82a48e875d5",
+            "destNodeId": "2cb87261-f1ba-4b50-a006-24312347f75d",
             "destPortId": "c120065f-61fb-444d-b66a-c5851b02038e",
             "loopAware": false,
             "closesLoop": false
         },
-        "2acd053b-024f-4e0b-9169-284c790eb019": {
-            "id": "2acd053b-024f-4e0b-9169-284c790eb019",
-            "srcNodeId": "b2440975-f9f1-4614-adb5-36d18195462a",
+        "b4d66bdd-2412-4ab2-8c70-38df56cd4a91": {
+            "id": "b4d66bdd-2412-4ab2-8c70-38df56cd4a91",
+            "srcNodeId": "cad78a3d-a491-4280-8060-4f1e4e39eaee",
             "srcPortId": "45339a5a-f31f-447b-8e9d-3c4ea0831baa",
-            "destNodeId": "3c9cb320-f088-479d-8a6e-7ba698fa5c85",
+            "destNodeId": "9aa6712e-fdde-4c83-9d2b-1639983d6486",
             "destPortId": "4f2e7634-9d90-41ce-aa1a-317374135f91",
             "loopAware": false,
             "closesLoop": false
         },
-        "45fa85e9-50d2-4a25-a4c5-803911af835b": {
-            "id": "45fa85e9-50d2-4a25-a4c5-803911af835b",
-            "srcNodeId": "5a702ab8-fb47-4767-8031-840879805bd5",
+        "bb3ebdf6-fac7-4bd1-9e12-ff042c32e728": {
+            "id": "bb3ebdf6-fac7-4bd1-9e12-ff042c32e728",
+            "srcNodeId": "9b1c125c-0855-4139-84df-14eeb97312fb",
             "srcPortId": "b5b41d56-064d-4fcb-a85b-ab53ba84af7f",
-            "destNodeId": "b2440975-f9f1-4614-adb5-36d18195462a",
+            "destNodeId": "cad78a3d-a491-4280-8060-4f1e4e39eaee",
             "destPortId": "2b2488bc-7a81-4e65-92f0-daecc7921bd2",
             "loopAware": false,
             "closesLoop": false
